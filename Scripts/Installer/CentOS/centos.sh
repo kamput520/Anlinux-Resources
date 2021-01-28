@@ -25,7 +25,7 @@ if [ "$first" != 1 ];then
 			echo "unknown architecture"; exit 1 ;;
 		esac
 		#wget "https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Rootfs/CentOS/${archurl}/centos-rootfs-${archurl}.tar.xz" -O $tarball
-		wget "https://raw.github.com/EXALAB/AnLinux-Resources/master/Rootfs/CentOS/${archurl}/centos-rootfs-${archurl}.tar.xz" -O $tarball
+		wget "https://raw.github.com/kamput520/bold/AnLinux-Resources/master/Rootfs/CentOS/${archurl}/centos-rootfs-${archurl}.tar.xz" -O $tarball
 	fi
 	cur=`pwd`
 	mkdir -p "$folder"
